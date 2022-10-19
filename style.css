@@ -4,6 +4,27 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto';
+  height: 100vh;
+}
+
+.header {
+  background-color: #1f2937;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #F9FAF8;
+}
+
+.nav-link a, 
+.hero-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 li {
   list-style: none;
 }
@@ -12,4 +33,29 @@ li a {
   text-decoration: none;
 }
 
+.hero-text-title {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 800;
+}
 
+button {
+  color: #F9FAF8;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header-button {
+  background-color: #3882F6;
+  border: none;
+  border-radius: 8px;
+}
+
+.header-photo {
+  width: 320px;
+  height: 180px;
+}
