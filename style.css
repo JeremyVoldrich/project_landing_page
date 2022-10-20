@@ -11,6 +11,10 @@ body {
 
 .header {
   background-color: #1f2937;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 75px;
+  padding-left: 100px;
 }
 
 .logo {
@@ -19,14 +23,25 @@ body {
   color: #F9FAF8;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-link a, 
 .hero-text {
   font-size: 18px;
   color: #E5E7EB;
 }
 
+ul {
+  display: flex;
+  align-items: center;
+}
+
 li {
   list-style: none;
+  margin-left: 25px;
 }
 
 li a {
