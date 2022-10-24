@@ -9,6 +9,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  font-weight: 300;
   color: #F9FAF8;
   background: #fff;
 }
@@ -109,19 +110,22 @@ button {
 .image-boxes {
   border: 3px solid #3882F6;
   border-radius: 15px;
-  width: 175px;
-  height: 175px;
+  width: 165px;
+  height: 165px;
 }
 
 .information-section .container {
+  height: 350px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .images-text-container {
   display: flex;
   justify-content: space-evenly;
+  align-content: center;
 }
 
 .images-text-container div {
