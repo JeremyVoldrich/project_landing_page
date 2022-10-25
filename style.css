@@ -139,3 +139,28 @@ button {
 .text-under-images {
   text-align: center;
 }
+
+.quote-section {
+  background: #E5E7EB;
+  color: #1F2937;
+}
+
+.quote-section .container {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  padding: 0 65px;
+}
+
+.quote-author {
+  font-weight: 700;
+  align-self: flex-end;
+  padding: 0 85px;
+}
