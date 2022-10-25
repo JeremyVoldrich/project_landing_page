@@ -94,15 +94,19 @@ button {
 }
 
 .header-section {
-  padding: 100px 0;
+  padding: 101.5px 0;
 }
 
 .information-section {
-  background: #8f8f8f;
+  background: #fff;
   color: #1F2937;
 }
 
 .information-header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
   font-size: 36px;
   font-weight: 900;
 }
@@ -115,19 +119,23 @@ button {
 }
 
 .information-section .container {
-  height: 350px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .images-text-container {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
+  flex: auto;
 }
 
 .images-text-container div {
   flex: 0;
+}
+
+.text-under-images {
+  text-align: center;
 }
