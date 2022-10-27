@@ -50,13 +50,13 @@ button {
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
-  margin-top: 10px;
 }
 
 .header-button {
   background-color: #3882F6;
   border: none;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 .header-photo {
@@ -163,4 +163,54 @@ button {
   font-weight: 700;
   align-self: flex-end;
   padding: 0 85px;
+}
+
+.call-to-action .container {
+  height: 370px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.call-to-action-box {
+  height: 150px;
+  display: flex;
+  background: #3882F6;
+  color: #F9FAF8;
+  border-radius: 8px;
+  justify-content: space-around;
+}
+
+.call-to-action-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.call-to-action-text {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.call-to-action-button {
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  border-radius: 8px;
+  padding: 6px 33px;
+  height: max-content;
+  max-height: 100%;
+  align-self: center;
+}
+
+.footer {
+  color: #F9FAF8;
+  background: #1F2937;
+}
+
+.footer .container {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
